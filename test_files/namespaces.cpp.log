@@ -1,0 +1,17 @@
+Translation unit: test_files/namespaces.cpp
+
+CursorKind.TRANSLATION_UNIT test_files/namespaces.cpp test_files/namespaces.cpp <SourceLocation file None, line 0, column 0>
+	CursorKind.USING_DIRECTIVE   <SourceLocation file 'test_files/namespaces.cpp', line 1, column 17>
+		CursorKind.NAMESPACE_REF std std <SourceLocation file 'test_files/namespaces.cpp', line 1, column 17>
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/namespaces.cpp', line 3, column 5>
+		type: TypeKind.FUNCTIONPROTO 
+		canonical type: TypeKind.FUNCTIONPROTO 
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/namespaces.cpp', line 4, column 1>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/namespaces.cpp', line 5, column 5>
+				CursorKind.VAR_DECL i i <SourceLocation file 'test_files/namespaces.cpp', line 5, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+			CursorKind.RETURN_STMT   <SourceLocation file 'test_files/namespaces.cpp', line 6, column 5>
+				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/namespaces.cpp', line 6, column 12>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 

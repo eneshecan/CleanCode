@@ -1,0 +1,17 @@
+Translation unit: auto_keyword.cpp
+
+CursorKind.TRANSLATION_UNIT auto_keyword.cpp auto_keyword.cpp <SourceLocation file None, line 0, column 0>
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'auto_keyword.cpp', line 3, column 5>
+		type: TypeKind.FUNCTIONPROTO 
+		canonical type: TypeKind.FUNCTIONPROTO 
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'auto_keyword.cpp', line 4, column 1>
+			CursorKind.DECL_STMT   <SourceLocation file 'auto_keyword.cpp', line 5, column 5>
+				CursorKind.VAR_DECL p p <SourceLocation file 'auto_keyword.cpp', line 5, column 25>
+					type: TypeKind.UNEXPOSED 
+					canonical type: TypeKind.RECORD 
+					CursorKind.NAMESPACE_REF std std <SourceLocation file 'auto_keyword.cpp', line 5, column 5>
+					CursorKind.TEMPLATE_REF pair pair <SourceLocation file 'auto_keyword.cpp', line 5, column 10>
+			CursorKind.DECL_STMT   <SourceLocation file 'auto_keyword.cpp', line 6, column 5>
+				CursorKind.VAR_DECL p2 p2 <SourceLocation file 'auto_keyword.cpp', line 6, column 10>
+					type: TypeKind.AUTO 
+					canonical type: TypeKind.AUTO 

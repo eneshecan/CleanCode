@@ -1,0 +1,53 @@
+Translation unit: test_files/func.cpp
+
+CursorKind.TRANSLATION_UNIT test_files/func.cpp test_files/func.cpp <SourceLocation file None, line 0, column 0>
+	CursorKind.FUNCTION_DECL func2 func2() <SourceLocation file 'test_files/func.cpp', line 1, column 6>
+		type: TypeKind.FUNCTIONPROTO 
+		canonical type: TypeKind.FUNCTIONPROTO 
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/func.cpp', line 2, column 1>
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/func.cpp', line 6, column 5>
+		type: TypeKind.FUNCTIONPROTO 
+		canonical type: TypeKind.FUNCTIONPROTO 
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/func.cpp', line 7, column 1>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/func.cpp', line 8, column 5>
+				CursorKind.VAR_DECL a a <SourceLocation file 'test_files/func.cpp', line 8, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+			CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/func.cpp', line 9, column 5>
+				type: TypeKind.INT 
+				canonical type: TypeKind.INT 
+				CursorKind.DECL_REF_EXPR a a <SourceLocation file 'test_files/func.cpp', line 9, column 5>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+				CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/func.cpp', line 9, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+					CursorKind.UNEXPOSED_EXPR a a <SourceLocation file 'test_files/func.cpp', line 9, column 9>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+						CursorKind.DECL_REF_EXPR a a <SourceLocation file 'test_files/func.cpp', line 9, column 9>
+							type: TypeKind.INT 
+							canonical type: TypeKind.INT 
+					CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/func.cpp', line 9, column 11>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/func.cpp', line 11, column 5>
+				CursorKind.VAR_DECL b b <SourceLocation file 'test_files/func.cpp', line 11, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+					CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/func.cpp', line 11, column 13>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+			CursorKind.COMPOUND_ASSIGNMENT_OPERATOR   <SourceLocation file 'test_files/func.cpp', line 12, column 5>
+				type: TypeKind.INT 
+				canonical type: TypeKind.INT 
+				CursorKind.DECL_REF_EXPR b b <SourceLocation file 'test_files/func.cpp', line 12, column 5>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/func.cpp', line 12, column 10>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+			CursorKind.RETURN_STMT   <SourceLocation file 'test_files/func.cpp', line 15, column 5>
+				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/func.cpp', line 15, column 12>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 

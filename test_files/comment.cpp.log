@@ -1,0 +1,32 @@
+Translation unit: test_files/comment.cpp
+
+CursorKind.TRANSLATION_UNIT test_files/comment.cpp test_files/comment.cpp <SourceLocation file None, line 0, column 0>
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/comment.cpp', line 3, column 5>
+		type: TypeKind.FUNCTIONPROTO 
+		canonical type: TypeKind.FUNCTIONPROTO 
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/comment.cpp', line 4, column 1>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/comment.cpp', line 6, column 5>
+				CursorKind.VAR_DECL y y <SourceLocation file 'test_files/comment.cpp', line 6, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+					CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/comment.cpp', line 6, column 13>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/comment.cpp', line 9, column 5>
+				CursorKind.VAR_DECL d d <SourceLocation file 'test_files/comment.cpp', line 9, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+					CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/comment.cpp', line 9, column 13>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/comment.cpp', line 12, column 5>
+				CursorKind.VAR_DECL h h <SourceLocation file 'test_files/comment.cpp', line 12, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+					CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/comment.cpp', line 12, column 13>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+			CursorKind.RETURN_STMT   <SourceLocation file 'test_files/comment.cpp', line 13, column 5>
+				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/comment.cpp', line 13, column 12>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 

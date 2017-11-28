@@ -1,0 +1,103 @@
+Translation unit: animal.cpp
+
+CursorKind.TRANSLATION_UNIT animal.cpp animal.cpp <SourceLocation file None, line 0, column 0>
+	CursorKind.CLASS_DECL animal animal <SourceLocation file 'animal.cpp', line 1, column 7>
+		type: TypeKind.RECORD 
+		canonical type: TypeKind.RECORD 
+		CursorKind.CXX_ACCESS_SPEC_DECL   <SourceLocation file 'animal.cpp', line 3, column 1>
+		CursorKind.CONSTRUCTOR animal animal(char *, int) <SourceLocation file 'animal.cpp', line 4, column 5>
+			type: TypeKind.FUNCTIONPROTO 
+			canonical type: TypeKind.FUNCTIONPROTO 
+			CursorKind.PARM_DECL name name <SourceLocation file 'animal.cpp', line 4, column 18>
+				type: TypeKind.POINTER 
+					points to: TypeKind.CHAR_S 
+				canonical type: TypeKind.POINTER 
+					points to: TypeKind.CHAR_S 
+			CursorKind.PARM_DECL age age <SourceLocation file 'animal.cpp', line 4, column 28>
+				type: TypeKind.INT 
+				canonical type: TypeKind.INT 
+			CursorKind.MEMBER_REF name_ name_ <SourceLocation file 'animal.cpp', line 5, column 13>
+				type: TypeKind.POINTER 
+					points to: TypeKind.CHAR_S 
+				canonical type: TypeKind.POINTER 
+					points to: TypeKind.CHAR_S 
+			CursorKind.UNEXPOSED_EXPR name name <SourceLocation file 'animal.cpp', line 5, column 19>
+				type: TypeKind.POINTER 
+					points to: TypeKind.CHAR_S 
+				canonical type: TypeKind.POINTER 
+					points to: TypeKind.CHAR_S 
+				CursorKind.DECL_REF_EXPR name name <SourceLocation file 'animal.cpp', line 5, column 19>
+					type: TypeKind.POINTER 
+						points to: TypeKind.CHAR_S 
+					canonical type: TypeKind.POINTER 
+						points to: TypeKind.CHAR_S 
+			CursorKind.MEMBER_REF age_ age_ <SourceLocation file 'animal.cpp', line 6, column 13>
+				type: TypeKind.INT 
+				canonical type: TypeKind.INT 
+			CursorKind.UNEXPOSED_EXPR age age <SourceLocation file 'animal.cpp', line 6, column 18>
+				type: TypeKind.INT 
+				canonical type: TypeKind.INT 
+				CursorKind.DECL_REF_EXPR age age <SourceLocation file 'animal.cpp', line 6, column 18>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+			CursorKind.COMPOUND_STMT   <SourceLocation file 'animal.cpp', line 7, column 5>
+		CursorKind.DESTRUCTOR ~animal ~animal() <SourceLocation file 'animal.cpp', line 9, column 5>
+			type: TypeKind.FUNCTIONPROTO 
+			canonical type: TypeKind.FUNCTIONPROTO 
+			CursorKind.COMPOUND_STMT   <SourceLocation file 'animal.cpp', line 10, column 5>
+		CursorKind.CXX_METHOD introduce introduce() <SourceLocation file 'animal.cpp', line 12, column 10>
+			type: TypeKind.FUNCTIONPROTO 
+			canonical type: TypeKind.FUNCTIONPROTO 
+			CursorKind.COMPOUND_STMT   <SourceLocation file 'animal.cpp', line 13, column 5>
+		CursorKind.CXX_ACCESS_SPEC_DECL   <SourceLocation file 'animal.cpp', line 17, column 1>
+		CursorKind.FIELD_DECL name_ name_ <SourceLocation file 'animal.cpp', line 18, column 11>
+			type: TypeKind.POINTER 
+				points to: TypeKind.CHAR_S 
+			canonical type: TypeKind.POINTER 
+				points to: TypeKind.CHAR_S 
+		CursorKind.FIELD_DECL age_ age_ <SourceLocation file 'animal.cpp', line 19, column 9>
+			type: TypeKind.INT 
+			canonical type: TypeKind.INT 
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'animal.cpp', line 22, column 5>
+		type: TypeKind.FUNCTIONPROTO 
+		canonical type: TypeKind.FUNCTIONPROTO 
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'animal.cpp', line 22, column 12>
+			CursorKind.DECL_STMT   <SourceLocation file 'animal.cpp', line 23, column 5>
+				CursorKind.VAR_DECL dog dog <SourceLocation file 'animal.cpp', line 23, column 12>
+					type: TypeKind.RECORD 
+					canonical type: TypeKind.RECORD 
+					CursorKind.TYPE_REF class animal class animal <SourceLocation file 'animal.cpp', line 23, column 5>
+						type: TypeKind.RECORD 
+						canonical type: TypeKind.RECORD 
+					CursorKind.CALL_EXPR animal animal <SourceLocation file 'animal.cpp', line 23, column 12>
+						type: TypeKind.RECORD 
+						canonical type: TypeKind.RECORD 
+						CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'animal.cpp', line 23, column 16>
+							type: TypeKind.POINTER 
+								points to: TypeKind.CHAR_S 
+							canonical type: TypeKind.POINTER 
+								points to: TypeKind.CHAR_S 
+							CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'animal.cpp', line 23, column 16>
+								type: TypeKind.POINTER 
+									points to: TypeKind.CHAR_S const
+								canonical type: TypeKind.POINTER 
+									points to: TypeKind.CHAR_S const
+								CursorKind.STRING_LITERAL "kral" "kral" <SourceLocation file 'animal.cpp', line 23, column 16>
+									type: TypeKind.CONSTANTARRAY 
+									canonical type: TypeKind.CONSTANTARRAY const
+						CursorKind.INTEGER_LITERAL   <SourceLocation file 'animal.cpp', line 23, column 24>
+							type: TypeKind.INT 
+							canonical type: TypeKind.INT 
+			CursorKind.CALL_EXPR introduce introduce <SourceLocation file 'animal.cpp', line 24, column 5>
+				type: TypeKind.VOID 
+				canonical type: TypeKind.VOID 
+				CursorKind.MEMBER_REF_EXPR introduce introduce <SourceLocation file 'animal.cpp', line 24, column 9>
+					type: TypeKind.UNEXPOSED 
+					canonical type: TypeKind.UNEXPOSED 
+					CursorKind.DECL_REF_EXPR dog dog <SourceLocation file 'animal.cpp', line 24, column 5>
+						type: TypeKind.RECORD 
+						canonical type: TypeKind.RECORD 
+			CursorKind.RETURN_STMT   <SourceLocation file 'animal.cpp', line 26, column 5>
+				CursorKind.INTEGER_LITERAL   <SourceLocation file 'animal.cpp', line 26, column 12>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
