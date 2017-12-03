@@ -1,46 +1,46 @@
-Translation unit: braces.cpp
+Translation unit: test_files/braces.cpp
 
-CursorKind.TRANSLATION_UNIT braces.cpp braces.cpp <SourceLocation file None, line 0, column 0>
-	CursorKind.CLASS_DECL Crazy Crazy <SourceLocation file 'braces.cpp', line 1, column 7>
+CursorKind.TRANSLATION_UNIT test_files/braces.cpp test_files/braces.cpp <SourceLocation file None, line 0, column 0>
+	CursorKind.CLASS_DECL Crazy Crazy <SourceLocation file 'test_files/braces.cpp', line 1, column 7>
 		type: TypeKind.RECORD 
 		canonical type: TypeKind.RECORD 
-	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'braces.cpp', line 5, column 5>
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/braces.cpp', line 5, column 5>
 		type: TypeKind.FUNCTIONPROTO 
 		canonical type: TypeKind.FUNCTIONPROTO 
-		CursorKind.COMPOUND_STMT   <SourceLocation file 'braces.cpp', line 5, column 11>
-			CursorKind.IF_STMT   <SourceLocation file 'braces.cpp', line 7, column 5>
-				CursorKind.CXX_BOOL_LITERAL_EXPR   <SourceLocation file 'braces.cpp', line 7, column 8>
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/braces.cpp', line 5, column 11>
+			CursorKind.IF_STMT   <SourceLocation file 'test_files/braces.cpp', line 7, column 5>
+				CursorKind.CXX_BOOL_LITERAL_EXPR   <SourceLocation file 'test_files/braces.cpp', line 7, column 8>
 					type: TypeKind.BOOL 
 					canonical type: TypeKind.BOOL 
-				CursorKind.COMPOUND_STMT   <SourceLocation file 'braces.cpp', line 7, column 14>
-			CursorKind.FOR_STMT   <SourceLocation file 'braces.cpp', line 10, column 5>
-				CursorKind.DECL_STMT   <SourceLocation file 'braces.cpp', line 10, column 9>
-					CursorKind.VAR_DECL i i <SourceLocation file 'braces.cpp', line 10, column 13>
+				CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/braces.cpp', line 7, column 14>
+			CursorKind.FOR_STMT   <SourceLocation file 'test_files/braces.cpp', line 10, column 5>
+				CursorKind.DECL_STMT   <SourceLocation file 'test_files/braces.cpp', line 10, column 9>
+					CursorKind.VAR_DECL i i <SourceLocation file 'test_files/braces.cpp', line 10, column 13>
 						type: TypeKind.INT 
 						canonical type: TypeKind.INT 
-						CursorKind.INTEGER_LITERAL   <SourceLocation file 'braces.cpp', line 10, column 15>
+						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/braces.cpp', line 10, column 15>
 							type: TypeKind.INT 
 							canonical type: TypeKind.INT 
-				CursorKind.BINARY_OPERATOR   <SourceLocation file 'braces.cpp', line 10, column 18>
+				CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/braces.cpp', line 10, column 18>
 					type: TypeKind.BOOL 
 					canonical type: TypeKind.BOOL 
-					CursorKind.UNEXPOSED_EXPR i i <SourceLocation file 'braces.cpp', line 10, column 18>
+					CursorKind.UNEXPOSED_EXPR i i <SourceLocation file 'test_files/braces.cpp', line 10, column 18>
 						type: TypeKind.INT 
 						canonical type: TypeKind.INT 
-						CursorKind.DECL_REF_EXPR i i <SourceLocation file 'braces.cpp', line 10, column 18>
+						CursorKind.DECL_REF_EXPR i i <SourceLocation file 'test_files/braces.cpp', line 10, column 18>
 							type: TypeKind.INT 
 							canonical type: TypeKind.INT 
-					CursorKind.INTEGER_LITERAL   <SourceLocation file 'braces.cpp', line 10, column 20>
+					CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/braces.cpp', line 10, column 20>
 						type: TypeKind.INT 
 						canonical type: TypeKind.INT 
-				CursorKind.UNARY_OPERATOR   <SourceLocation file 'braces.cpp', line 10, column 24>
+				CursorKind.UNARY_OPERATOR   <SourceLocation file 'test_files/braces.cpp', line 10, column 24>
 					type: TypeKind.INT 
 					canonical type: TypeKind.INT 
-					CursorKind.DECL_REF_EXPR i i <SourceLocation file 'braces.cpp', line 10, column 24>
+					CursorKind.DECL_REF_EXPR i i <SourceLocation file 'test_files/braces.cpp', line 10, column 24>
 						type: TypeKind.INT 
 						canonical type: TypeKind.INT 
-				CursorKind.COMPOUND_STMT   <SourceLocation file 'braces.cpp', line 10, column 29>
-			CursorKind.RETURN_STMT   <SourceLocation file 'braces.cpp', line 13, column 5>
-				CursorKind.INTEGER_LITERAL   <SourceLocation file 'braces.cpp', line 13, column 12>
+				CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/braces.cpp', line 10, column 29>
+			CursorKind.RETURN_STMT   <SourceLocation file 'test_files/braces.cpp', line 13, column 5>
+				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/braces.cpp', line 13, column 12>
 					type: TypeKind.INT 
 					canonical type: TypeKind.INT 

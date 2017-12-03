@@ -1,17 +1,17 @@
-Translation unit: initalization.cpp
+Translation unit: test_files/initalization.cpp
 
-CursorKind.TRANSLATION_UNIT initalization.cpp initalization.cpp <SourceLocation file None, line 0, column 0>
-	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'initalization.cpp', line 1, column 5>
+CursorKind.TRANSLATION_UNIT test_files/initalization.cpp test_files/initalization.cpp <SourceLocation file None, line 0, column 0>
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/initalization.cpp', line 1, column 5>
 		type: TypeKind.FUNCTIONPROTO 
 		canonical type: TypeKind.FUNCTIONPROTO 
-		CursorKind.COMPOUND_STMT   <SourceLocation file 'initalization.cpp', line 2, column 1>
-			CursorKind.DECL_STMT   <SourceLocation file 'initalization.cpp', line 3, column 5>
-				CursorKind.VAR_DECL ptr ptr <SourceLocation file 'initalization.cpp', line 3, column 10>
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/initalization.cpp', line 2, column 1>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/initalization.cpp', line 3, column 5>
+				CursorKind.VAR_DECL ptr ptr <SourceLocation file 'test_files/initalization.cpp', line 3, column 10>
 					type: TypeKind.POINTER 
 						points to: TypeKind.INT 
 					canonical type: TypeKind.POINTER 
 						points to: TypeKind.INT 
-			CursorKind.RETURN_STMT   <SourceLocation file 'initalization.cpp', line 5, column 5>
-				CursorKind.INTEGER_LITERAL   <SourceLocation file 'initalization.cpp', line 5, column 12>
+			CursorKind.RETURN_STMT   <SourceLocation file 'test_files/initalization.cpp', line 5, column 5>
+				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/initalization.cpp', line 5, column 12>
 					type: TypeKind.INT 
 					canonical type: TypeKind.INT 

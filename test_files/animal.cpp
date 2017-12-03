@@ -1,3 +1,6 @@
+#include <iostream>
+
+/// Class for Animal
 class animal
 {
 public:

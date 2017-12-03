@@ -1,4 +1,10 @@
 
+/// this is a class
+class Animal
+{
+
+}
+
 /* what */
 int main()
 {
@@ -10,5 +16,6 @@ int main()
 
     //! this is used for hour
     int h = 0;
+
     return 0;
 }

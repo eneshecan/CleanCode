@@ -41,3 +41,12 @@ CursorKind.TRANSLATION_UNIT test_files/variables.cpp test_files/variables.cpp <S
 						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/variables.cpp', line 9, column 21>
 							type: TypeKind.INT 
 							canonical type: TypeKind.INT 
+			CursorKind.CXX_UNARY_EXPR   <SourceLocation file 'test_files/variables.cpp', line 10, column 5>
+				type: TypeKind.ULONG 
+				canonical type: TypeKind.ULONG 
+				CursorKind.PAREN_EXPR   <SourceLocation file 'test_files/variables.cpp', line 10, column 11>
+					type: TypeKind.UINT 
+					canonical type: TypeKind.UINT 
+					CursorKind.DECL_REF_EXPR var1 var1 <SourceLocation file 'test_files/variables.cpp', line 10, column 12>
+						type: TypeKind.UINT 
+						canonical type: TypeKind.UINT 

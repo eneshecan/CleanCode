@@ -65,12 +65,12 @@ def show_ast(cursor, level=Level()):
 
 def check_args(argv):
     if len(argv) == 2:
-        if sys.argv[1].split('.')[1] != 'cpp':
-            print "Please provide a C++ source code as an argument"
+        if not (sys.argv[1].split('.')[1] == 'cpp' or sys.argv[1].split('.')[1] == 'h'):
+            print "Please provide a C++ source code or header as argument"
             exit()
         return sys.argv[1]
     elif len(argv) < 2:
-        print "Provide a C++ source code as an argument"
+        print "Provide a C++ source code or header as argument"
         exit()
     else:
         print "Too much arguments!"
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     log_file = open(filename + '.log', 'w')
 
     index = clang.cindex.Index.create()
-    tu = index.parse(filename, args=['-x', 'c++'])
+    tu = index.parse(filename)
 
     log_file.write('Translation unit: ' + tu.spelling + '\n\n')
 
