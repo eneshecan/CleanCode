@@ -1,52 +1,50 @@
 Translation unit: test_files/variables.cpp
 
 CursorKind.TRANSLATION_UNIT test_files/variables.cpp test_files/variables.cpp <SourceLocation file None, line 0, column 0>
-	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/variables.cpp', line 5, column 5>
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/variables.cpp', line 10, column 5>
 		type: TypeKind.FUNCTIONPROTO 
 		canonical type: TypeKind.FUNCTIONPROTO 
-		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/variables.cpp', line 6, column 1>
-			CursorKind.DECL_STMT   <SourceLocation file 'test_files/variables.cpp', line 7, column 5>
-				CursorKind.VAR_DECL var1 var1 <SourceLocation file 'test_files/variables.cpp', line 7, column 14>
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/variables.cpp', line 10, column 12>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/variables.cpp', line 11, column 5>
+				CursorKind.VAR_DECL variabl_n variabl_n <SourceLocation file 'test_files/variables.cpp', line 11, column 14>
 					type: TypeKind.UINT 
 					canonical type: TypeKind.UINT 
-					CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/variables.cpp', line 7, column 21>
+					CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/variables.cpp', line 11, column 26>
 						type: TypeKind.UINT 
 						canonical type: TypeKind.UINT 
-						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/variables.cpp', line 7, column 21>
+						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/variables.cpp', line 11, column 26>
 							type: TypeKind.INT 
 							canonical type: TypeKind.INT 
-			CursorKind.DECL_STMT   <SourceLocation file 'test_files/variables.cpp', line 8, column 5>
-				CursorKind.VAR_DECL var var <SourceLocation file 'test_files/variables.cpp', line 8, column 13>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/variables.cpp', line 12, column 5>
+				CursorKind.VAR_DECL size_stu size_stu <SourceLocation file 'test_files/variables.cpp', line 12, column 13>
 					type: TypeKind.TYPEDEF 
 					canonical type: TypeKind.UCHAR 
-					CursorKind.TYPE_REF uint8_t uint8_t <SourceLocation file 'test_files/variables.cpp', line 8, column 5>
+					CursorKind.TYPE_REF uint8_t uint8_t <SourceLocation file 'test_files/variables.cpp', line 12, column 5>
 						type: TypeKind.TYPEDEF 
 						canonical type: TypeKind.UCHAR 
-					CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/variables.cpp', line 8, column 19>
+					CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/variables.cpp', line 12, column 24>
 						type: TypeKind.TYPEDEF 
 						canonical type: TypeKind.UCHAR 
-						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/variables.cpp', line 8, column 19>
+						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/variables.cpp', line 12, column 24>
 							type: TypeKind.INT 
 							canonical type: TypeKind.INT 
-			CursorKind.DECL_STMT   <SourceLocation file 'test_files/variables.cpp', line 9, column 5>
-				CursorKind.VAR_DECL var3 var3 <SourceLocation file 'test_files/variables.cpp', line 9, column 14>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/variables.cpp', line 13, column 5>
+				CursorKind.VAR_DECL stu_size stu_size <SourceLocation file 'test_files/variables.cpp', line 13, column 13>
 					type: TypeKind.TYPEDEF 
-					canonical type: TypeKind.UINT 
-					CursorKind.TYPE_REF uint32_t uint32_t <SourceLocation file 'test_files/variables.cpp', line 9, column 5>
+					canonical type: TypeKind.UCHAR 
+					CursorKind.TYPE_REF uint8_t uint8_t <SourceLocation file 'test_files/variables.cpp', line 13, column 5>
 						type: TypeKind.TYPEDEF 
-						canonical type: TypeKind.UINT 
-					CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/variables.cpp', line 9, column 21>
+						canonical type: TypeKind.UCHAR 
+					CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/variables.cpp', line 13, column 24>
 						type: TypeKind.TYPEDEF 
-						canonical type: TypeKind.UINT 
-						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/variables.cpp', line 9, column 21>
+						canonical type: TypeKind.UCHAR 
+						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/variables.cpp', line 13, column 24>
 							type: TypeKind.INT 
 							canonical type: TypeKind.INT 
-			CursorKind.CXX_UNARY_EXPR   <SourceLocation file 'test_files/variables.cpp', line 10, column 5>
-				type: TypeKind.ULONG 
-				canonical type: TypeKind.ULONG 
-				CursorKind.PAREN_EXPR   <SourceLocation file 'test_files/variables.cpp', line 10, column 11>
-					type: TypeKind.UINT 
-					canonical type: TypeKind.UINT 
-					CursorKind.DECL_REF_EXPR var1 var1 <SourceLocation file 'test_files/variables.cpp', line 10, column 12>
-						type: TypeKind.UINT 
-						canonical type: TypeKind.UINT 
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/variables.cpp', line 14, column 5>
+				CursorKind.VAR_DECL buffer_string_si buffer_string_si <SourceLocation file 'test_files/variables.cpp', line 14, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+					CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/variables.cpp', line 14, column 28>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 

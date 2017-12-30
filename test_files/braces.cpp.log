@@ -40,7 +40,3 @@ CursorKind.TRANSLATION_UNIT test_files/braces.cpp test_files/braces.cpp <SourceL
 						type: TypeKind.INT 
 						canonical type: TypeKind.INT 
 				CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/braces.cpp', line 10, column 29>
-			CursorKind.RETURN_STMT   <SourceLocation file 'test_files/braces.cpp', line 13, column 5>
-				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/braces.cpp', line 13, column 12>
-					type: TypeKind.INT 
-					canonical type: TypeKind.INT 

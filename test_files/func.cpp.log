@@ -1,7 +1,7 @@
 Translation unit: test_files/func.cpp
 
 CursorKind.TRANSLATION_UNIT test_files/func.cpp test_files/func.cpp <SourceLocation file None, line 0, column 0>
-	CursorKind.FUNCTION_DECL func2 func2() <SourceLocation file 'test_files/func.cpp', line 1, column 6>
+	CursorKind.FUNCTION_DECL func func() <SourceLocation file 'test_files/func.cpp', line 1, column 6>
 		type: TypeKind.FUNCTIONPROTO 
 		canonical type: TypeKind.FUNCTIONPROTO 
 		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/func.cpp', line 2, column 1>

@@ -2,10 +2,14 @@
 #include <iostream>
 #include <stdint.h>
 
-int main()
-{
-    unsigned var1 = 20;
-    uint8_t var = 0;
-    uint32_t var3 = 10;
-    sizeof(var1);
+//int func()
+//{
+//    return 0;
+//}
+
+int main() {
+    unsigned variabl_n = 10;
+    uint8_t size_stu = 0;
+    uint8_t stu_size = 0;
+    int buffer_string_si = 10;
 }

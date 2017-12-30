@@ -1,8 +1,12 @@
 #include "iostream"
 
+int return_int()
+{
+    return 5;
+}
+
 int main()
 {
-    std::pair<int, int> p = {1,2};
-    auto p2 = p;
+    auto p = return_int;
 
 }

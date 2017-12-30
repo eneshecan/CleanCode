@@ -1,4 +1,4 @@
-void func2()
+void func()
 {
     std::cout << "function me" std::endl;
 }
