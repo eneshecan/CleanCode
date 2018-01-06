@@ -56,9 +56,9 @@ def inspect_name(cursor):
         names = [item.replace(' ', '_') for item in suggested]
 
     if suggest:
-
         print custom_text_.warning() + "Name suggestions for " + custom_text_.underlined(cursor.spelling) + \
-              " at line " + str(cursor.location.line) + ", column " + str(cursor.location.column) + '\n' + str(names) + "\n"
+              " at line " + str(cursor.location.line) + ", column " + str(cursor.location.column) + '\n' + str(names) + \
+              '\n' + custom_text_.useful_doc("Robert C. Martin, Clean Code, Chapter 2: Meaningful Names")
 
 
 def inspect_variable(cursor):
@@ -82,7 +82,7 @@ def inspect_variable(cursor):
 
 
 def inspect_func(cursor):
-    if (cursor.extent.end.line - cursor.extent.start.line) > 7:
+    if (cursor.extent.end.line - cursor.extent.start.line) > 10:
         print custom_text_.warning() + "Function " + custom_text_.underlined(cursor.spelling) + \
               " is too long. It is better to extract functions from it." + "\n" + \
               custom_text_.useful_doc("Robert C. Martin, Clean Code, Chapter 3:Functions")
@@ -107,7 +107,8 @@ def inspect_using_directive(cursor):
 
 
 def inspect_comment(cursor):
-    print custom_text_.warning() + "You may try to remove the comment " + custom_text_.comment(cursor.raw_comment) + \
+    print custom_text_.warning() + "You may try to remove the comment " + '\n' + \
+          custom_text_.comment(cursor.raw_comment) + \
           " and embed into the name " + custom_text_.underlined(cursor.spelling) + "\n" + \
           " at line " + str(cursor.location.line) + " column " + str(cursor.location.column) + \
           ", so that the reader can infer its meaning by just reading it.\n" + \

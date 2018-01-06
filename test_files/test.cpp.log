@@ -1,0 +1,208 @@
+Translation unit: test_files/test.cpp
+
+CursorKind.TRANSLATION_UNIT test_files/test.cpp test_files/test.cpp <SourceLocation file None, line 0, column 0>
+	CursorKind.USING_DIRECTIVE   <SourceLocation file 'test_files/test.cpp', line 2, column 17>
+		CursorKind.NAMESPACE_REF std std <SourceLocation file 'test_files/test.cpp', line 2, column 17>
+	CursorKind.FUNCTION_DECL function function(int) <SourceLocation file 'test_files/test.cpp', line 5, column 5>
+		type: TypeKind.FUNCTIONPROTO 
+		canonical type: TypeKind.FUNCTIONPROTO 
+		CursorKind.PARM_DECL val val <SourceLocation file 'test_files/test.cpp', line 5, column 18>
+			type: TypeKind.INT 
+			canonical type: TypeKind.INT 
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/test.cpp', line 5, column 23>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/test.cpp', line 6, column 5>
+				CursorKind.VAR_DECL i i <SourceLocation file 'test_files/test.cpp', line 6, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/test.cpp', line 7, column 5>
+				CursorKind.VAR_DECL prime prime <SourceLocation file 'test_files/test.cpp', line 7, column 10>
+					type: TypeKind.BOOL 
+					canonical type: TypeKind.BOOL 
+					CursorKind.CXX_BOOL_LITERAL_EXPR   <SourceLocation file 'test_files/test.cpp', line 7, column 18>
+						type: TypeKind.BOOL 
+						canonical type: TypeKind.BOOL 
+			CursorKind.FOR_STMT   <SourceLocation file 'test_files/test.cpp', line 9, column 5>
+				CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/test.cpp', line 9, column 9>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+					CursorKind.DECL_REF_EXPR i i <SourceLocation file 'test_files/test.cpp', line 9, column 9>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+					CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/test.cpp', line 9, column 13>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+				CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/test.cpp', line 9, column 16>
+					type: TypeKind.BOOL 
+					canonical type: TypeKind.BOOL 
+					CursorKind.UNEXPOSED_EXPR i i <SourceLocation file 'test_files/test.cpp', line 9, column 16>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+						CursorKind.DECL_REF_EXPR i i <SourceLocation file 'test_files/test.cpp', line 9, column 16>
+							type: TypeKind.INT 
+							canonical type: TypeKind.INT 
+					CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/test.cpp', line 9, column 21>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+						CursorKind.UNEXPOSED_EXPR val val <SourceLocation file 'test_files/test.cpp', line 9, column 21>
+							type: TypeKind.INT 
+							canonical type: TypeKind.INT 
+							CursorKind.DECL_REF_EXPR val val <SourceLocation file 'test_files/test.cpp', line 9, column 21>
+								type: TypeKind.INT 
+								canonical type: TypeKind.INT 
+						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/test.cpp', line 9, column 27>
+							type: TypeKind.INT 
+							canonical type: TypeKind.INT 
+				CursorKind.UNARY_OPERATOR   <SourceLocation file 'test_files/test.cpp', line 9, column 30>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 
+					CursorKind.DECL_REF_EXPR i i <SourceLocation file 'test_files/test.cpp', line 9, column 32>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+				CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/test.cpp', line 9, column 35>
+					CursorKind.IF_STMT   <SourceLocation file 'test_files/test.cpp', line 10, column 9>
+						CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/test.cpp', line 10, column 12>
+							type: TypeKind.BOOL 
+							canonical type: TypeKind.BOOL 
+							CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/test.cpp', line 10, column 12>
+								type: TypeKind.INT 
+								canonical type: TypeKind.INT 
+								CursorKind.UNEXPOSED_EXPR val val <SourceLocation file 'test_files/test.cpp', line 10, column 12>
+									type: TypeKind.INT 
+									canonical type: TypeKind.INT 
+									CursorKind.DECL_REF_EXPR val val <SourceLocation file 'test_files/test.cpp', line 10, column 12>
+										type: TypeKind.INT 
+										canonical type: TypeKind.INT 
+								CursorKind.UNEXPOSED_EXPR i i <SourceLocation file 'test_files/test.cpp', line 10, column 18>
+									type: TypeKind.INT 
+									canonical type: TypeKind.INT 
+									CursorKind.DECL_REF_EXPR i i <SourceLocation file 'test_files/test.cpp', line 10, column 18>
+										type: TypeKind.INT 
+										canonical type: TypeKind.INT 
+							CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/test.cpp', line 10, column 23>
+								type: TypeKind.INT 
+								canonical type: TypeKind.INT 
+						CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/test.cpp', line 10, column 26>
+							CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/test.cpp', line 11, column 11>
+								type: TypeKind.BOOL 
+								canonical type: TypeKind.BOOL 
+								CursorKind.DECL_REF_EXPR prime prime <SourceLocation file 'test_files/test.cpp', line 11, column 11>
+									type: TypeKind.BOOL 
+									canonical type: TypeKind.BOOL 
+								CursorKind.CXX_BOOL_LITERAL_EXPR   <SourceLocation file 'test_files/test.cpp', line 11, column 19>
+									type: TypeKind.BOOL 
+									canonical type: TypeKind.BOOL 
+							CursorKind.BREAK_STMT   <SourceLocation file 'test_files/test.cpp', line 12, column 11>
+			CursorKind.IF_STMT   <SourceLocation file 'test_files/test.cpp', line 16, column 5>
+				CursorKind.UNEXPOSED_EXPR prime prime <SourceLocation file 'test_files/test.cpp', line 16, column 8>
+					type: TypeKind.BOOL 
+					canonical type: TypeKind.BOOL 
+					CursorKind.DECL_REF_EXPR prime prime <SourceLocation file 'test_files/test.cpp', line 16, column 8>
+						type: TypeKind.BOOL 
+						canonical type: TypeKind.BOOL 
+				CursorKind.RETURN_STMT   <SourceLocation file 'test_files/test.cpp', line 17, column 9>
+					CursorKind.BINARY_OPERATOR   <SourceLocation file 'test_files/test.cpp', line 17, column 16>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+						CursorKind.UNEXPOSED_EXPR val val <SourceLocation file 'test_files/test.cpp', line 17, column 16>
+							type: TypeKind.INT 
+							canonical type: TypeKind.INT 
+							CursorKind.DECL_REF_EXPR val val <SourceLocation file 'test_files/test.cpp', line 17, column 16>
+								type: TypeKind.INT 
+								canonical type: TypeKind.INT 
+						CursorKind.UNEXPOSED_EXPR val val <SourceLocation file 'test_files/test.cpp', line 17, column 20>
+							type: TypeKind.INT 
+							canonical type: TypeKind.INT 
+							CursorKind.DECL_REF_EXPR val val <SourceLocation file 'test_files/test.cpp', line 17, column 20>
+								type: TypeKind.INT 
+								canonical type: TypeKind.INT 
+				CursorKind.RETURN_STMT   <SourceLocation file 'test_files/test.cpp', line 19, column 9>
+					CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/test.cpp', line 19, column 16>
+						type: TypeKind.INT 
+						canonical type: TypeKind.INT 
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/test.cpp', line 22, column 5>
+		type: TypeKind.FUNCTIONPROTO 
+		canonical type: TypeKind.FUNCTIONPROTO 
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/test.cpp', line 23, column 1>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/test.cpp', line 24, column 5>
+				CursorKind.VAR_DECL reslt reslt <SourceLocation file 'test_files/test.cpp', line 24, column 14>
+					type: TypeKind.UINT 
+					canonical type: TypeKind.UINT 
+					CursorKind.UNEXPOSED_EXPR function function <SourceLocation file 'test_files/test.cpp', line 24, column 22>
+						type: TypeKind.UINT 
+						canonical type: TypeKind.UINT 
+						CursorKind.CALL_EXPR function function <SourceLocation file 'test_files/test.cpp', line 24, column 22>
+							type: TypeKind.INT 
+							canonical type: TypeKind.INT 
+							CursorKind.UNEXPOSED_EXPR function function <SourceLocation file 'test_files/test.cpp', line 24, column 22>
+								type: TypeKind.POINTER 
+									points to: TypeKind.FUNCTIONPROTO 
+								canonical type: TypeKind.POINTER 
+									points to: TypeKind.FUNCTIONPROTO 
+								CursorKind.DECL_REF_EXPR function function <SourceLocation file 'test_files/test.cpp', line 24, column 22>
+									type: TypeKind.FUNCTIONPROTO 
+									canonical type: TypeKind.FUNCTIONPROTO 
+							CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/test.cpp', line 24, column 31>
+								type: TypeKind.INT 
+								canonical type: TypeKind.INT 
+			CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/test.cpp', line 25, column 5>
+				type: TypeKind.TYPEDEF 
+				canonical type: TypeKind.RECORD 
+				CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/test.cpp', line 25, column 5>
+					type: TypeKind.TYPEDEF 
+					canonical type: TypeKind.RECORD 
+					CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/test.cpp', line 25, column 5>
+						type: TypeKind.UNEXPOSED 
+						canonical type: TypeKind.RECORD 
+						CursorKind.DECL_REF_EXPR cout cout <SourceLocation file 'test_files/test.cpp', line 25, column 5>
+							type: TypeKind.TYPEDEF 
+							canonical type: TypeKind.RECORD 
+						CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/test.cpp', line 25, column 10>
+							type: TypeKind.POINTER 
+								points to: TypeKind.FUNCTIONPROTO 
+							canonical type: TypeKind.POINTER 
+								points to: TypeKind.FUNCTIONPROTO 
+							CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/test.cpp', line 25, column 10>
+								type: TypeKind.FUNCTIONPROTO 
+								canonical type: TypeKind.FUNCTIONPROTO 
+						CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/test.cpp', line 25, column 13>
+							type: TypeKind.POINTER 
+								points to: TypeKind.CHAR_S const
+							canonical type: TypeKind.POINTER 
+								points to: TypeKind.CHAR_S const
+							CursorKind.STRING_LITERAL "Result is " "Result is " <SourceLocation file 'test_files/test.cpp', line 25, column 13>
+								type: TypeKind.CONSTANTARRAY 
+								canonical type: TypeKind.CONSTANTARRAY const
+					CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/test.cpp', line 25, column 26>
+						type: TypeKind.POINTER 
+							points to: TypeKind.FUNCTIONPROTO 
+						canonical type: TypeKind.POINTER 
+							points to: TypeKind.FUNCTIONPROTO 
+						CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/test.cpp', line 25, column 26>
+							type: TypeKind.FUNCTIONPROTO 
+							canonical type: TypeKind.FUNCTIONPROTO 
+					CursorKind.UNEXPOSED_EXPR reslt reslt <SourceLocation file 'test_files/test.cpp', line 25, column 29>
+						type: TypeKind.UINT 
+						canonical type: TypeKind.UINT 
+						CursorKind.DECL_REF_EXPR reslt reslt <SourceLocation file 'test_files/test.cpp', line 25, column 29>
+							type: TypeKind.UINT 
+							canonical type: TypeKind.UINT 
+				CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/test.cpp', line 25, column 35>
+					type: TypeKind.POINTER 
+						points to: TypeKind.FUNCTIONPROTO 
+					canonical type: TypeKind.POINTER 
+						points to: TypeKind.FUNCTIONPROTO 
+					CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/test.cpp', line 25, column 35>
+						type: TypeKind.FUNCTIONPROTO 
+						canonical type: TypeKind.FUNCTIONPROTO 
+				CursorKind.UNEXPOSED_EXPR endl endl <SourceLocation file 'test_files/test.cpp', line 25, column 38>
+					type: TypeKind.POINTER 
+						points to: TypeKind.FUNCTIONPROTO 
+					canonical type: TypeKind.POINTER 
+						points to: TypeKind.FUNCTIONPROTO 
+					CursorKind.DECL_REF_EXPR endl endl <SourceLocation file 'test_files/test.cpp', line 25, column 38>
+						type: TypeKind.FUNCTIONPROTO 
+						canonical type: TypeKind.FUNCTIONPROTO 
+			CursorKind.RETURN_STMT   <SourceLocation file 'test_files/test.cpp', line 26, column 5>
+				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/test.cpp', line 26, column 12>
+					type: TypeKind.INT 
+					canonical type: TypeKind.INT 

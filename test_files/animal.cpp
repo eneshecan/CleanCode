@@ -12,8 +12,7 @@ public:
     ~animal()
     {}
 
-    void introduce()
-    {
+    void introduce() {
         std::cout << " Hello I am " << name_ << " and I am " << age_ << " years old." << std::endl;
     }
 

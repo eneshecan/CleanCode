@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import sys
 import clang.enumerations
 import clang.cindex
@@ -6,7 +8,6 @@ from analyzer import *
 clang.cindex.Config.set_library_path('/usr/lib/llvm-4.0/lib')
 
 log_file = None
-
 
 class Level(int):
     '''Represents currently visited level of the tree'''

@@ -48,180 +48,180 @@ CursorKind.TRANSLATION_UNIT test_files/animal.cpp test_files/animal.cpp <SourceL
 		CursorKind.CXX_METHOD introduce introduce() <SourceLocation file 'test_files/animal.cpp', line 15, column 10>
 			type: TypeKind.FUNCTIONPROTO 
 			canonical type: TypeKind.FUNCTIONPROTO 
-			CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/animal.cpp', line 16, column 5>
-				CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 9>
+			CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/animal.cpp', line 15, column 22>
+				CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 9>
 					type: TypeKind.TYPEDEF 
 					canonical type: TypeKind.RECORD 
-					CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 9>
+					CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 9>
 						type: TypeKind.UNEXPOSED 
 						canonical type: TypeKind.RECORD 
-						CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 9>
+						CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 9>
 							type: TypeKind.TYPEDEF 
 							canonical type: TypeKind.RECORD 
-							CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 9>
+							CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 9>
 								type: TypeKind.UNEXPOSED 
 								canonical type: TypeKind.RECORD 
-								CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 9>
+								CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 9>
 									type: TypeKind.UNEXPOSED 
 									canonical type: TypeKind.RECORD 
-									CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 9>
+									CursorKind.CALL_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 9>
 										type: TypeKind.UNEXPOSED 
 										canonical type: TypeKind.RECORD 
-										CursorKind.DECL_REF_EXPR cout cout <SourceLocation file 'test_files/animal.cpp', line 17, column 14>
+										CursorKind.DECL_REF_EXPR cout cout <SourceLocation file 'test_files/animal.cpp', line 16, column 14>
 											type: TypeKind.TYPEDEF 
 											canonical type: TypeKind.RECORD 
-											CursorKind.NAMESPACE_REF std std <SourceLocation file 'test_files/animal.cpp', line 17, column 9>
-										CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 19>
+											CursorKind.NAMESPACE_REF std std <SourceLocation file 'test_files/animal.cpp', line 16, column 9>
+										CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 19>
 											type: TypeKind.POINTER 
 												points to: TypeKind.FUNCTIONPROTO 
 											canonical type: TypeKind.POINTER 
 												points to: TypeKind.FUNCTIONPROTO 
-											CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 19>
+											CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 19>
 												type: TypeKind.FUNCTIONPROTO 
 												canonical type: TypeKind.FUNCTIONPROTO 
-										CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 17, column 22>
+										CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 16, column 22>
 											type: TypeKind.POINTER 
 												points to: TypeKind.CHAR_S const
 											canonical type: TypeKind.POINTER 
 												points to: TypeKind.CHAR_S const
-											CursorKind.STRING_LITERAL " Hello I am " " Hello I am " <SourceLocation file 'test_files/animal.cpp', line 17, column 22>
+											CursorKind.STRING_LITERAL " Hello I am " " Hello I am " <SourceLocation file 'test_files/animal.cpp', line 16, column 22>
 												type: TypeKind.CONSTANTARRAY 
 												canonical type: TypeKind.CONSTANTARRAY const
-									CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 37>
+									CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 37>
 										type: TypeKind.POINTER 
 											points to: TypeKind.FUNCTIONPROTO 
 										canonical type: TypeKind.POINTER 
 											points to: TypeKind.FUNCTIONPROTO 
-										CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 37>
+										CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 37>
 											type: TypeKind.FUNCTIONPROTO 
 											canonical type: TypeKind.FUNCTIONPROTO 
-									CursorKind.UNEXPOSED_EXPR name_ name_ <SourceLocation file 'test_files/animal.cpp', line 17, column 40>
+									CursorKind.UNEXPOSED_EXPR name_ name_ <SourceLocation file 'test_files/animal.cpp', line 16, column 40>
 										type: TypeKind.POINTER 
 											points to: TypeKind.CHAR_S const
 										canonical type: TypeKind.POINTER 
 											points to: TypeKind.CHAR_S const
-										CursorKind.UNEXPOSED_EXPR name_ name_ <SourceLocation file 'test_files/animal.cpp', line 17, column 40>
+										CursorKind.UNEXPOSED_EXPR name_ name_ <SourceLocation file 'test_files/animal.cpp', line 16, column 40>
 											type: TypeKind.POINTER 
 												points to: TypeKind.CHAR_S 
 											canonical type: TypeKind.POINTER 
 												points to: TypeKind.CHAR_S 
-											CursorKind.MEMBER_REF_EXPR name_ name_ <SourceLocation file 'test_files/animal.cpp', line 17, column 40>
+											CursorKind.MEMBER_REF_EXPR name_ name_ <SourceLocation file 'test_files/animal.cpp', line 16, column 40>
 												type: TypeKind.POINTER 
 													points to: TypeKind.CHAR_S 
 												canonical type: TypeKind.POINTER 
 													points to: TypeKind.CHAR_S 
-								CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 46>
+								CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 46>
 									type: TypeKind.POINTER 
 										points to: TypeKind.FUNCTIONPROTO 
 									canonical type: TypeKind.POINTER 
 										points to: TypeKind.FUNCTIONPROTO 
-									CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 46>
+									CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 46>
 										type: TypeKind.FUNCTIONPROTO 
 										canonical type: TypeKind.FUNCTIONPROTO 
-								CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 17, column 49>
+								CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 16, column 49>
 									type: TypeKind.POINTER 
 										points to: TypeKind.CHAR_S const
 									canonical type: TypeKind.POINTER 
 										points to: TypeKind.CHAR_S const
-									CursorKind.STRING_LITERAL " and I am " " and I am " <SourceLocation file 'test_files/animal.cpp', line 17, column 49>
+									CursorKind.STRING_LITERAL " and I am " " and I am " <SourceLocation file 'test_files/animal.cpp', line 16, column 49>
 										type: TypeKind.CONSTANTARRAY 
 										canonical type: TypeKind.CONSTANTARRAY const
-							CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 62>
+							CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 62>
 								type: TypeKind.POINTER 
 									points to: TypeKind.FUNCTIONPROTO 
 								canonical type: TypeKind.POINTER 
 									points to: TypeKind.FUNCTIONPROTO 
-								CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 62>
+								CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 62>
 									type: TypeKind.FUNCTIONPROTO 
 									canonical type: TypeKind.FUNCTIONPROTO 
-							CursorKind.UNEXPOSED_EXPR age_ age_ <SourceLocation file 'test_files/animal.cpp', line 17, column 65>
+							CursorKind.UNEXPOSED_EXPR age_ age_ <SourceLocation file 'test_files/animal.cpp', line 16, column 65>
 								type: TypeKind.INT 
 								canonical type: TypeKind.INT 
-								CursorKind.MEMBER_REF_EXPR age_ age_ <SourceLocation file 'test_files/animal.cpp', line 17, column 65>
+								CursorKind.MEMBER_REF_EXPR age_ age_ <SourceLocation file 'test_files/animal.cpp', line 16, column 65>
 									type: TypeKind.INT 
 									canonical type: TypeKind.INT 
-						CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 70>
+						CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 70>
 							type: TypeKind.POINTER 
 								points to: TypeKind.FUNCTIONPROTO 
 							canonical type: TypeKind.POINTER 
 								points to: TypeKind.FUNCTIONPROTO 
-							CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 70>
+							CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 70>
 								type: TypeKind.FUNCTIONPROTO 
 								canonical type: TypeKind.FUNCTIONPROTO 
-						CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 17, column 73>
+						CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 16, column 73>
 							type: TypeKind.POINTER 
 								points to: TypeKind.CHAR_S const
 							canonical type: TypeKind.POINTER 
 								points to: TypeKind.CHAR_S const
-							CursorKind.STRING_LITERAL " years old." " years old." <SourceLocation file 'test_files/animal.cpp', line 17, column 73>
+							CursorKind.STRING_LITERAL " years old." " years old." <SourceLocation file 'test_files/animal.cpp', line 16, column 73>
 								type: TypeKind.CONSTANTARRAY 
 								canonical type: TypeKind.CONSTANTARRAY const
-					CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 87>
+					CursorKind.UNEXPOSED_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 87>
 						type: TypeKind.POINTER 
 							points to: TypeKind.FUNCTIONPROTO 
 						canonical type: TypeKind.POINTER 
 							points to: TypeKind.FUNCTIONPROTO 
-						CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 17, column 87>
+						CursorKind.DECL_REF_EXPR operator<< operator<< <SourceLocation file 'test_files/animal.cpp', line 16, column 87>
 							type: TypeKind.FUNCTIONPROTO 
 							canonical type: TypeKind.FUNCTIONPROTO 
-					CursorKind.UNEXPOSED_EXPR endl endl <SourceLocation file 'test_files/animal.cpp', line 17, column 95>
+					CursorKind.UNEXPOSED_EXPR endl endl <SourceLocation file 'test_files/animal.cpp', line 16, column 95>
 						type: TypeKind.POINTER 
 							points to: TypeKind.FUNCTIONPROTO 
 						canonical type: TypeKind.POINTER 
 							points to: TypeKind.FUNCTIONPROTO 
-						CursorKind.DECL_REF_EXPR endl endl <SourceLocation file 'test_files/animal.cpp', line 17, column 95>
+						CursorKind.DECL_REF_EXPR endl endl <SourceLocation file 'test_files/animal.cpp', line 16, column 95>
 							type: TypeKind.FUNCTIONPROTO 
 							canonical type: TypeKind.FUNCTIONPROTO 
-							CursorKind.NAMESPACE_REF std std <SourceLocation file 'test_files/animal.cpp', line 17, column 90>
-		CursorKind.CXX_ACCESS_SPEC_DECL   <SourceLocation file 'test_files/animal.cpp', line 20, column 1>
-		CursorKind.FIELD_DECL name_ name_ <SourceLocation file 'test_files/animal.cpp', line 21, column 11>
+							CursorKind.NAMESPACE_REF std std <SourceLocation file 'test_files/animal.cpp', line 16, column 90>
+		CursorKind.CXX_ACCESS_SPEC_DECL   <SourceLocation file 'test_files/animal.cpp', line 19, column 1>
+		CursorKind.FIELD_DECL name_ name_ <SourceLocation file 'test_files/animal.cpp', line 20, column 11>
 			type: TypeKind.POINTER 
 				points to: TypeKind.CHAR_S 
 			canonical type: TypeKind.POINTER 
 				points to: TypeKind.CHAR_S 
-		CursorKind.FIELD_DECL age_ age_ <SourceLocation file 'test_files/animal.cpp', line 22, column 9>
+		CursorKind.FIELD_DECL age_ age_ <SourceLocation file 'test_files/animal.cpp', line 21, column 9>
 			type: TypeKind.INT 
 			canonical type: TypeKind.INT 
-	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/animal.cpp', line 25, column 5>
+	CursorKind.FUNCTION_DECL main main() <SourceLocation file 'test_files/animal.cpp', line 24, column 5>
 		type: TypeKind.FUNCTIONPROTO 
 		canonical type: TypeKind.FUNCTIONPROTO 
-		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/animal.cpp', line 25, column 12>
-			CursorKind.DECL_STMT   <SourceLocation file 'test_files/animal.cpp', line 26, column 5>
-				CursorKind.VAR_DECL dog dog <SourceLocation file 'test_files/animal.cpp', line 26, column 12>
+		CursorKind.COMPOUND_STMT   <SourceLocation file 'test_files/animal.cpp', line 24, column 12>
+			CursorKind.DECL_STMT   <SourceLocation file 'test_files/animal.cpp', line 25, column 5>
+				CursorKind.VAR_DECL dog dog <SourceLocation file 'test_files/animal.cpp', line 25, column 12>
 					type: TypeKind.RECORD 
 					canonical type: TypeKind.RECORD 
-					CursorKind.TYPE_REF class animal class animal <SourceLocation file 'test_files/animal.cpp', line 26, column 5>
+					CursorKind.TYPE_REF class animal class animal <SourceLocation file 'test_files/animal.cpp', line 25, column 5>
 						type: TypeKind.RECORD 
 						canonical type: TypeKind.RECORD 
-					CursorKind.CALL_EXPR animal animal <SourceLocation file 'test_files/animal.cpp', line 26, column 12>
+					CursorKind.CALL_EXPR animal animal <SourceLocation file 'test_files/animal.cpp', line 25, column 12>
 						type: TypeKind.RECORD 
 						canonical type: TypeKind.RECORD 
-						CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 26, column 16>
+						CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 25, column 16>
 							type: TypeKind.POINTER 
 								points to: TypeKind.CHAR_S 
 							canonical type: TypeKind.POINTER 
 								points to: TypeKind.CHAR_S 
-							CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 26, column 16>
+							CursorKind.UNEXPOSED_EXPR   <SourceLocation file 'test_files/animal.cpp', line 25, column 16>
 								type: TypeKind.POINTER 
 									points to: TypeKind.CHAR_S const
 								canonical type: TypeKind.POINTER 
 									points to: TypeKind.CHAR_S const
-								CursorKind.STRING_LITERAL "kral" "kral" <SourceLocation file 'test_files/animal.cpp', line 26, column 16>
+								CursorKind.STRING_LITERAL "kral" "kral" <SourceLocation file 'test_files/animal.cpp', line 25, column 16>
 									type: TypeKind.CONSTANTARRAY 
 									canonical type: TypeKind.CONSTANTARRAY const
-						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/animal.cpp', line 26, column 24>
+						CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/animal.cpp', line 25, column 24>
 							type: TypeKind.INT 
 							canonical type: TypeKind.INT 
-			CursorKind.CALL_EXPR introduce introduce <SourceLocation file 'test_files/animal.cpp', line 27, column 5>
+			CursorKind.CALL_EXPR introduce introduce <SourceLocation file 'test_files/animal.cpp', line 26, column 5>
 				type: TypeKind.VOID 
 				canonical type: TypeKind.VOID 
-				CursorKind.MEMBER_REF_EXPR introduce introduce <SourceLocation file 'test_files/animal.cpp', line 27, column 9>
+				CursorKind.MEMBER_REF_EXPR introduce introduce <SourceLocation file 'test_files/animal.cpp', line 26, column 9>
 					type: TypeKind.UNEXPOSED 
 					canonical type: TypeKind.UNEXPOSED 
-					CursorKind.DECL_REF_EXPR dog dog <SourceLocation file 'test_files/animal.cpp', line 27, column 5>
+					CursorKind.DECL_REF_EXPR dog dog <SourceLocation file 'test_files/animal.cpp', line 26, column 5>
 						type: TypeKind.RECORD 
 						canonical type: TypeKind.RECORD 
-			CursorKind.RETURN_STMT   <SourceLocation file 'test_files/animal.cpp', line 29, column 5>
-				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/animal.cpp', line 29, column 12>
+			CursorKind.RETURN_STMT   <SourceLocation file 'test_files/animal.cpp', line 28, column 5>
+				CursorKind.INTEGER_LITERAL   <SourceLocation file 'test_files/animal.cpp', line 28, column 12>
 					type: TypeKind.INT 
 					canonical type: TypeKind.INT 
